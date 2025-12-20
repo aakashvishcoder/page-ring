@@ -2,24 +2,27 @@ import { defineConfig } from "vite";
 import { svelte } from "@sveltejs/vite-plugin-svelte";
 import tailwindcss from "@tailwindcss/vite";
 import { resolve } from "node:path";
-import { analyzer } from "vite-bundle-analyzer";
+// import { analyzer } from "vite-bundle-analyzer";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/embed",
+
   build: {
     lib: {
       entry: resolve(__dirname, "src/embed.ts"),
-      name: "embed",
+      name: "pagering",
       // the proper extensions will be added
-      fileName: "embed",
+      fileName: "script",
+      formats: ["umd"],
     },
   },
 
   plugins: [
     svelte(),
     tailwindcss(),
-    analyzer({
-      analyzerPort: 8887,
-    }),
+    // analyzer({
+    //   analyzerPort: 8887,
+    // }),
   ],
 });
