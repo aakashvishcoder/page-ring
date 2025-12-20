@@ -2,13 +2,20 @@
   "name": "page-ysws-webring",
   "type": "module",
   "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "preview": "turbo run dev"
+  },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "turbo": "^2.7.0"
   },
   "peerDependencies": {
     "typescript": "^5"
-  }
+  },
+  "packageManager": "bun@1.3.4"
 }

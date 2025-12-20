@@ -12,6 +12,14 @@ _Read more_ (todo: link)
 
 🌸 `packages/gif` - animated GIF of a flower
 
-## Development
+## Commands
 
 Make sure [Bun](https://bun.com/) is installed.
+
+These commands are for running 'everything' at once:
+| Command | Action |
+| :------------ | :------------------------------------------- |
+| `bun install` | Installs dependencies |
+| `bun dev` | Starts local dev servers |
+| `bun build` | Builds embed + website for production |
+| `bun preview` | Preview your build locally, before deploying |
