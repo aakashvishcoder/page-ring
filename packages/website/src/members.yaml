@@ -62,6 +62,11 @@
   name: junya
   url: "https://cutiesin.tech"
   buttonUrl: "https://cutiesin.tech/88x31/junya.gif"
+
+- id: inkedpetal
+  name: srithika
+  url: "https://inkedpetal.dev"
+  buttonUrl: "https://inkedpetal.dev/88x31/inkedpetal.gif"
 #
 # - id: sarvesh
 #   name: "sarvesh"
