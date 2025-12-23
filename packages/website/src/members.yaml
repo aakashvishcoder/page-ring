@@ -4,3 +4,8 @@
   name: "gideon"
   url: "https://gideon.sh"
   buttonUrl: "https://gideon.sh/88x31.gif"
+
+- id: josh
+  name: "josh"
+  url: "https://os.slitrostudio.me"
+  buttonUrl: /buttons/slitro.gif
