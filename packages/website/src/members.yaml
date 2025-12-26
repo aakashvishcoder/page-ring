@@ -85,6 +85,11 @@
   url: "https://minipa.ws/"
   buttonUrl: "https://minipa.ws/images/mini.png"
 
+- id: touhouengie
+  name: "touhou engie"
+  url: "https://touhouengie.com/"
+  buttonUrl: "https://fileserver.touhouengie.com/drive/webpage_data/Images/rin8831.png"
+
 - id: vqb
   name: "vqb"
   url: "https://vvqb.dev/"
