@@ -63,3 +63,7 @@
   --tw-duration: initial;
   --tw-ease: initial;
 }
+
+@utility pixelated {
+  image-rendering: pixelated;
+}
